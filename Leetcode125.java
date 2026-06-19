@@ -12,7 +12,7 @@ public class Leetcode125 {
         int e = fixed.length() - 1;                                 //end pointer
 
         while(st <= e){
-            if(fixed.charAt(st) != fixed.charAt(e)){                //checking if the character at start pointer is not equal to the character at end pointer
+            if(fixed.charAt(st) != fixed.charAt(e)){                //
                 return false;
             }
             st++;
