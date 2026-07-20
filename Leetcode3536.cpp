@@ -8,7 +8,7 @@ public:
         while(n > 0){                                       
             prev = n % 10;                                  //Loop to get last digit and store it in vector 'ans'
             ans.push_back(prev);
-            n /= 10;
+            n /= 10;  
         }
         for(int i = 0; i < ans.size(); i++){                //loop to find max product
             for(int j = i + 1; j < ans.size(); j++){
