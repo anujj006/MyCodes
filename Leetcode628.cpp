@@ -7,4 +7,4 @@ public:
     return m;                                                                               //and if array have +ve elements then last three elements will make max product
     }
 };
-//Commited by Anuj Sen
+//Commited by Anuj Sen 
