@@ -1,8 +1,8 @@
 public class Solution {
      public int[] TwoSum(int[] nums, int target)
     {
-        Dictionary<int, int> map = new Dictionary<int, int>();
-
+        Dictionary<int, int> map = new Dictionary<int, int>();               //solution of this problem in C#
+     
         for (int i = 0; i < nums.Length; i++)
         { 
             int complement = target - nums[i];
